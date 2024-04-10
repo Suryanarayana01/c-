@@ -10,7 +10,6 @@ int main() {
    cout << "Enter the second number: ";
    cin >> num2;
 
-   // swap the numbers using a temporary variable
    temp = num1;
    num1 = num2;
    num2 = temp;
