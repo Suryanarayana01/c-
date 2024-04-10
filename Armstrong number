@@ -8,14 +8,12 @@ int main() {
 
     temp = n;
 
-    // calculating sum of each digit
     while (temp != 0) {
         digit = temp % 10;
         sum += digit * digit * digit;
         temp /= 10;
     }
 
-    // checking if the sum is equal to the original number
     if (sum == n)
         printf("%d is an Armstrong number.\n", n);
     else
